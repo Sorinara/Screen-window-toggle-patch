@@ -1,0 +1,11 @@
+--- /tmp/screen-4.0.2/comm.c	2003-09-08 23:25:08.000000000 +0900
++++ comm.c	2007-10-16 11:40:45.000000000 +0900
+@@ -238,7 +238,7 @@
+   { "number",		NEED_FORE|ARGS_01 },
+   { "obuflimit",	NEED_DISPLAY|ARGS_01 },
+   { "only",		NEED_DISPLAY|ARGS_0 },
+-  { "other",		ARGS_0 },
++  { "other",		ARGS_02 },
+   { "partial",		NEED_FORE|ARGS_01 },
+ #ifdef PASSWORD
+   { "password",		ARGS_01 },
